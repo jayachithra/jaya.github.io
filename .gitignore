@@ -1,0 +1,49 @@
+# Node modules (if you use npm/yarn)
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE and editor folders/files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Log files
+*.log
+
+# Build output
+/dist/
+/build/
+
+# Environment files
+.env
+.env.*
+
+# Misc
+*.swp
+*.bak
+*.tmp
+
+# Ignore Mac system files
+Icon?
+
+# Ignore Windows system files
+desktop.ini
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore coverage reports
+coverage/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore local settings
+local.settings.json
