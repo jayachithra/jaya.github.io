@@ -6,9 +6,20 @@
     <meta name="description" content="Blog Post by Jayachithra Kumar">
     <meta name="author" content="Jayachithra Kumar">
     <title>Simple C# MCP Server Setup - Blog</title>
+    <!-- Core theme CSS (includes Bootstrap)-->
     <link href="../css/styles.css" rel="stylesheet">
+    <!-- Fonts CSS-->
     <link rel="stylesheet" href="../css/heading.css">
     <link rel="stylesheet" href="../css/body.css">
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="../js/scripts.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
@@ -16,7 +27,7 @@
             <a class="navbar-brand" href="../index.html">Jayachithra (Jaya) Kumar</a>
         </div>
     </nav>
-    <section class="page-section" id="blog-content">
+    <section class="page-section" id="blog-content" style="padding-top: 120px;">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -25,21 +36,15 @@
                         <p><strong>Date:</strong> <em>2025-08-06</em></p>
                         <h3>Introduction</h3>
                         <p>Sharing my learning on creating a simple MCP Server in C#, locally running it and inspecting it using the inspector tool.</p>
-
-                        
                         <h3>Step-by-Step Guide</h3>
                         <ol>
-                            <li><!-- Step 1: Describe the first step. --> Create a simple MCP server for Weather API following the stesp given <a href="https://modelcontextprotocol.io/quickstart/server#c%23">here. Or clone the repository <a href="https://github.com/jayachithra/weathermcpserver">here</a>.</li>
-                            <li><!-- Step 2: Describe the next step. --> Install the inspector using the command <strong> npx @modelcontextprotocol/inspector </strong>. Prerequisite - Node.js: ^22.7.5 </li>
-                            <li> Run the command <strong>npx @modelcontextprotocol/inspector dotnet run</strong> from within the mcp server folder. This will open the UI for inspector in browser.</li>
-                            <li> Click on the connect button, go to Tools option from the top panel and click on "List Tools". You should see the list of tools provided by the MCP Server.</li>
-                            
+                            <li>Create a simple MCP server for Weather API following the steps given <a href="https://modelcontextprotocol.io/quickstart/server#c%23"> here </a>, or clone the repository <a href="https://github.com/jayachithra/weathermcpserver"> here </a>.</li>
+                            <li>Install the inspector using the command <strong>npx @modelcontextprotocol/inspector</strong>. Prerequisite - Node.js: ^22.7.5</li>
+                            <li>Run the command <strong>npx @modelcontextprotocol/inspector dotnet run</strong> from within the mcp server folder. This will open the UI for inspector in browser.</li>
+                            <li>Click on the connect button, go to Tools option from the top panel and click on "List Tools". You should see the list of tools provided by the MCP Server.</li>
                         </ol>
-                        
                         <h3>Images/Screenshots</h3>
-                        <p><!-- You can add images like this: --></p>
                         <img src="../assets/img/mcp1.jpg" alt="Sample Screenshot" style="max-width:100%;height:auto;" />
-                        
                     </article>
                 </div>
             </div>
